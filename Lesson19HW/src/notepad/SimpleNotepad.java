@@ -31,7 +31,7 @@ public class SimpleNotepad implements INotepad {
 		if (pageNumber>=1&&pageNumber <= pages.length) {
 			pages[pageNumber-1].deleteText();
 		} else {
-			System.out.println("Page doesn't exist");
+			System.out.println("Page doesn't exist!");
 		}
 
 	}
