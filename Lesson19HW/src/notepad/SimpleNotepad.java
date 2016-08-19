@@ -22,7 +22,7 @@ public class SimpleNotepad implements INotepad {
 			pages[pageNumber-1].deleteText();
 			pages[pageNumber-1].addText(addNewText);
 		} else {
-			System.out.println("Page doesn't exit.");
+			System.out.println("Page doesn't exit!");
 		}
 	}
 
