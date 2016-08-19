@@ -6,6 +6,7 @@ public class Ex1 {
 		for(int i=1; i <=100;i++){
 			System.out.println(i);
 		}
+		System.out.println("--------------------------------");
 
 	}
 
